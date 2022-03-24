@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR="${PATH}"
+DIR=${PATH}
 TEMPLATE=${DIR}/s3.yml
 # PARAMETERS=${DIR}/parameters.json
 STACK_NAME=s3bucket

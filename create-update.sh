@@ -4,7 +4,7 @@ TEMPLATE=s3.yml
 # PARAMETERS=${DIR}/parameters.json
 STACK_NAME=s3bucket
 
-read -p "stack:" INPUT
+#read -p "stack:" INPUT
 echo "User input: " ${INPUT}
 
 if [ "${INPUT}" = create ] || [ "${INPUT}" = update ]

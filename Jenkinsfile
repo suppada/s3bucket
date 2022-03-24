@@ -5,6 +5,7 @@ pipeline {
     stages{
         stage('cft template'){
             steps{
+                sh 'pwd'
                 sh 'chmod +x 700 create-update.sh'
                 sh './create-update.sh'
             }

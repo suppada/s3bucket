@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR='file:///cft-template'
+DIR='$WORKSPACE/cft-template'
 TEMPLATE=${DIR}/s3.yml
 # PARAMETERS=${DIR}/parameters.json
 STACK_NAME=s3bucket

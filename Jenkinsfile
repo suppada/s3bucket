@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'validations'
+        label 'test-node'
     }
     stages{
         stage('cft template'){

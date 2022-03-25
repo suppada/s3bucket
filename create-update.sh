@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-DIR="${WORKSPACE}"
-echo "Directory" ${DIR}
-TEMPLATE=${DIR}/s3.yml
+
+TEMPLATE=${WORKSPACE}/s3.yml
 # PARAMETERS=${DIR}/parameters.json
 STACK_NAME=s3bucket
 
 #read -p "stack:" INPUT
 echo "User input: " ${INPUT}
+echo "Template: " ${TEMPLATE}
 
 if [ "${INPUT}" = create ] || [ "${INPUT}" = update ]
 then

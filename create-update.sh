@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DIR=$WORKSPACE
+DIR="${WORKSPACE}"
 echo "Directory" ${DIR}
 TEMPLATE=${DIR}/s3.yml
 # PARAMETERS=${DIR}/parameters.json

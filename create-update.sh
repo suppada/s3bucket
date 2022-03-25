@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-TEMPLATE=${WORKSPACE}/s3.yml
+TEMPLATE="file:///${WORKSPACE}/s3.yml"
 # PARAMETERS=${DIR}/parameters.json
 STACK_NAME=s3bucket
 

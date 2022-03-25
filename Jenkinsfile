@@ -4,9 +4,7 @@ node('test-node'){
     echo "Current workspace is ${env.WORKSPACE}"
     echo "Current workspace is $WORKSPACE"
     stage('cft template'){
-            steps{
-                sh 'chmod +x create-update.sh'
-                sh './create-update.sh'
-            }
-        }
+        sh 'chmod +x create-update.sh'
+        sh './create-update.sh'
+    }
 }
